@@ -1,0 +1,40 @@
+body{
+    background: turquoise;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+   
+}
+
+.calc{
+    text-align: -webkit-center;
+    background:#0e2427;;
+    box-sizing: border-box;
+    display: inline-grid;
+    padding: 40px;
+
+}
+
+input{
+    font-size: 55px;
+    padding: 60px 50px;
+    text-align: right;
+    background: #a6a57d;;
+}
+
+button{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background: #8f8686;
+}
+
+button:hover{
+    background: rgba(191,191,191, 0.3);
+    color: white;
+}
